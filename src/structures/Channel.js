@@ -1,3 +1,5 @@
+const Fetcher = require("../Fetcher");
+
 class Channel {
 
     id;
@@ -7,6 +9,7 @@ class Channel {
     send;
 
     constructor(client, channel) {
+        const fetcher = new Fetcher(client);
         this.id = channel.id;
         this.name = channel.name;
         this.topic = channel.topic;

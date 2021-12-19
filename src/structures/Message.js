@@ -1,4 +1,5 @@
 const Fetcher = require("../Fetcher");
+
 class Message {
 
     author;
