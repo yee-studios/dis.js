@@ -1,2 +1,8 @@
-module.exports.parseMessage = require("./parserFiles/message")
-module.exports.parseInteraction = require("./parserFiles/interaction")
+'use strict';
+
+module.exports = {
+
+    parseMessage: require("./parserFiles/message"),
+    parseInteraction: require("./parserFiles/interaction")
+
+}
