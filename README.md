@@ -16,7 +16,7 @@ const client = new Discord.Client();
 client.login(token).then(() => console.log("I am ready!"));
 
 client.on("message", (message) => {
-    if (message.content === "!ping") message.channel.send(message.timestamp - new Date() + "ms");
+    if (message.content === "!ping") message.channel.send(new Date() - message.timestamp + "ms");
     if (message.content === "!reply") message.reply("Hello!");
 })
 ```
