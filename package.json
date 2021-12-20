@@ -4,13 +4,9 @@
   "description": "dis.js is a module for interacting with the Discord API",
   "main": "./src/index.js",
   "dependencies": {
-    "webidl-conversions": "^3.0.1",
-    "tr46": "^0.0.3",
     "node-fetch": "^2.6.6",
-    "whatwg-url": "^5.0.0",
     "ws": "^8.2.3"
   },
-  "devDependencies": {},
   "scripts": {},
   "repository": {
     "type": "git",
